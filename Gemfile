@@ -35,6 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'popper_js', '~> 1.12.9'
+gem 'rails-ujs', '~> 0.1.0'
+
+
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
