@@ -44,7 +44,13 @@ gem 'rails-ujs', '~> 0.1.0'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
+
+gem 'gmaps4rails'
+
+gem 'underscore-rails'
 gem 'stripe'
+gem 'geocoder'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

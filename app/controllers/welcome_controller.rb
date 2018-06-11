@@ -6,6 +6,6 @@ class WelcomeController < ApplicationController
 
 
   def map
-
+    @users = User.all
   end
 end
